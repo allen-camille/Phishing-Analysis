@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<!-- saved from url=(0095)https://elearning.securityblue.team/public/lab-certificate/991f7e3f-75d7-4564-934d-2ad52981e20a -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <meta name="author" content="Security Blue Team">
+  <link rel="canonical" href="https://elearning.securityblue.team/public/lab-certificate/991f7e3f-75d7-4564-934d-2ad52981e20a">
+  <meta property="og:title" content="Completed Phishing Response Capstone! - Security Blue Team">
+  <meta property="og:image" content="https://d2y9h8w1ydnujs.cloudfront.net/uploads/thumbnails/labs/991f7e3f-75d7-4564-934d-2ad52981e20a.png">
+  <meta property="og:image:width" content="842">
+  <meta property="og:image:height" content="595">
+  <meta property="og:description" content="I have just completed Phishing Response Capstone on Security Blue Team! We are trusted by hundreds of organisations, including military, government, law enforcement, CERTs, and MSSPs to train their teams. Develop your defensive skills with us.">
+  <meta property="og:url" content="https://elearning.securityblue.team/public/lab-certificate/991f7e3f-75d7-4564-934d-2ad52981e20a">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+
+
+  <title>Phishing Response Capstone Certificate</title>
+  <style>
+
+    @font-face {
+        font-family: "Montserrat";
+        font-weight: 100 900;
+        font-display: swap;
+        src: url("https://d2y9h8w1ydnujs.cloudfront.net/assets/fonts/Montserrat.ttf") format("truetype");
+    }
+
+    html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    b, u, i, center,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td,
+    article, aside, canvas, details, embed,
+    figure, figcaption, footer, header, hgroup,
+    menu, nav, output, ruby, section, summary,
+    time, mark, audio, video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+    }
+    /* HTML5 display-role reset for older browsers */
+    article, aside, details, figcaption, figure,
+    footer, header, hgroup, menu, nav, section {
+        display: block;
+    }
+    body {
+        line-height: 1;
+    }
+    ol, ul {
+        list-style: none;
+    }
+    blockquote, q {
+        quotes: none;
+    }
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+        content: '';
+        content: none;
+    }
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
+
+    * {
+        font-family: 'Montserrat';
+        box-sizing: border-box;
+        color: white;
+    }
+
+    body {
+        height: 100vh;
+        background: #2E348B;
+    }
+
+    .bg {
+        background-image: url("https://d2y9h8w1ydnujs.cloudfront.net/assets/images/svg/lab_cert_bg.svg");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        z-index: 2;
+    }
+
+    .wrapper {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 1rem;
+        overflow-x: hidden;
+    }
+
+    .text {
+        /* position: absolute;
+        width: 60%;
+        height: 85%;
+        max-width: 586px;
+        left: 74px;
+        top: 43px;
+        z-index: 2;
+        text-align: left; */
+        text-align: center;
+    }
+
+    .text .data-wrapper {
+        width: 100%;
+        height: 100%;
+        padding: 2rem 1rem;
+    }
+
+    .title {
+        font-weight: 900;
+        font-size: 25px;
+        text-transform: uppercase;
+    }
+
+    .username {
+        font-weight: 700;
+        margin-top: 40px;
+        font-size: 1.2rem;
+        text-transform: uppercase;
+    }
+
+    .phrase {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19.5px;
+        margin-top: 28px;
+    }
+
+    .lab {
+        font-weight: 700;
+        margin-top: 28px;
+        text-transform: uppercase;
+    }
+
+    .description {
+        margin-top: 16px;
+        font-size: 16px;
+        line-height: 19.5px;
+        font-weight: 400;
+    }
+
+    .text .company-logo {
+        position: absolute;
+        bottom: 0px;
+        left: 0;
+        z-index: 2;
+        display: none;
+        width: 70px;
+    }
+
+    .badge {
+        /* position: absolute;
+        top: 75px;
+        right: 67px;
+        background-image: url("https://d2y9h8w1ydnujs.cloudfront.net/uploads/certs/ce4c8e7e05d1338accdf7ecd761488acd28a6f39.png");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 324px;
+        z-index: 2; */
+        display: none;
+        background-image: url("https://d2y9h8w1ydnujs.cloudfront.net/uploads/certs/ce4c8e7e05d1338accdf7ecd761488acd28a6f39.png");
+        width: 100%;
+        height: 414px;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-bottom: 0.5rem;
+    }
+
+    .opaque-rectangle {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        align-items: center;
+        justify-content: space-between;
+        width: 1088px;
+        max-height: 95vh;
+        background-image: url("https://d2y9h8w1ydnujs.cloudfront.net/assets/images/svg/rect-bg.svg");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        backdrop-filter: blur(21px);
+        border-radius: 16px;
+        z-index: 2;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .footer-mobile {
+        display: flex;
+        gap: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .footer-mobile img {
+        width: 100px;
+    }
+
+    .container {
+        container-name: wrapper;
+        container-type: inline-size;
+        width: 100vw;
+        padding: 0 2rem;
+        height: 100%;
+    }
+
+    .container div {
+        height: 100%;
+    }
+
+    @container wrapper (min-width: 480px) {
+
+        .title {
+            font-size: 3rem;
+        }
+
+        .username {
+            font-size: 2rem;
+            margin-top: 58px;
+        }
+
+    }
+
+    @container wrapper (min-width: 1024px) {
+
+        .title {
+            font-size: 49px;
+            line-height: 48.76px;
+        }
+
+        .lab {
+            font-size: 28px;
+            line-height: 29.26px;
+        }
+
+    }
+
+    @media screen and (min-width: 480px) {
+        .footer-mobile img {
+            width: 140px;
+        }
+
+        .container div {
+            max-width: 70%;
+            margin: 0 auto;
+        }
+
+    }
+
+    @media screen and (min-width: 720px) {
+        .footer-mobile img {
+            width: 180px;
+        }
+
+    }
+
+    @media screen and (min-width: 760px) {
+
+        .container {
+            padding: 0;
+            width: 100%;
+        }
+
+        .container div {
+            max-width: 100%;
+        }
+
+        .footer-mobile {
+            display: none;
+        }
+
+        .opaque-rectangle {
+            flex-direction: row;
+            height: 528px;
+            max-height: auto;
+        }
+
+        .text {
+            position: absolute;
+            width: 52%;
+            height: 85%;
+            max-width: 586px;
+            left: 74px;
+            top: 43px;
+            z-index: 2;
+            text-align: left;
+        }
+
+        .badge {
+            position: absolute;
+            top: 75px;
+            right: 67px;
+            width: 200px;
+            height: 257px;
+            z-index: 2;
+            background-size: cover;
+            margin: 0;
+            display: block;
+        }
+
+        .text .company-logo {
+            display: block;
+        }
+
+        .text .data-wrapper {
+            padding: 0;
+        }
+
+    }
+
+    @media screen and (min-width: 1024px) {
+        .badge {
+            width: 324px;
+            height: 414px;
+        }
+    }
+
+    @media screen and (min-width: 1200px) {
+
+        .wrapper {
+            padding: 0;
+        }
+
+        .text {
+            width: 60%;
+        }
+
+    }
+
+    </style>
+</head>
+
+<body>
+
+    
+    <div class="bg"></div>
+
+    
+    <div class="wrapper">
+        <div class="opaque-rectangle">
+            <div class="text">
+                <div class="data-wrapper">
+                    <div class="container">
+                        <div>
+                            <h1 class="title">lab completed</h1>
+                            <p class="username">Allen Camille Muco</p>
+                            <p class="phrase">has successfully completed</p>
+                            <p class="lab">Phishing Response Capstone</p>
+                            <p class="description">Identify phishing emails and manually triage them to report on their intent and collect valuable indicators.</p>
+                            <img class="company-logo" src="./Phishing Response Capstone Certificate_files/sbt-logo.svg" alt="sbt logo">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-mobile">
+                <img src="./Phishing Response Capstone Certificate_files/sbt-logo.svg" alt="sbt logo">
+                <img src="./Phishing Response Capstone Certificate_files/ce4c8e7e05d1338accdf7ecd761488acd28a6f39.png" alt="cert logo">
+            </div>
+
+            
+            <div class="badge"></div>
+
+        </div>
+    </div>
+
+
+
+</body></html>
